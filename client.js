@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", event => {
     })
   
     // 建立 WebSocket
-    let url = 'ws://tecoamber.github.io/talkchat_test/'
+    let url = 'ws://example.com/socket'
     let ws = new WebSocket(url)
     
     // 監聽連線狀態
