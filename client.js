@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", event => {
     })
   
     // 建立 WebSocket
-    let url = 'ws://localhost:3000'
+    let url = 'ws://172.20.10.5'
     let ws = new WebSocket(url)
     
     // 監聽連線狀態

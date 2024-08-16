@@ -18,7 +18,7 @@ document.querySelector('#sendBtn')?.addEventListener('click', (e) => {
 
 function connect() { 
     // Create WebSocket connection
-    ws = new WebSocket('ws://localhost:8080') 
+    ws = new WebSocket('ws://172.20.10.5') 
     // 在開啟連線時執行
     ws.onopen = () => console.log('[open connection]')
 }
